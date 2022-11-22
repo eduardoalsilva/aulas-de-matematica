@@ -1,15 +1,25 @@
-*{
-    margin: 0;
-    padding: 0;
+html {
+    font-size: 22px;
 }
+
 
 body{
-    background-color: F0F8FF;
+    background-color: #333;
     font-family: sans-serif;
     font-size: 1em;
-    color: #59429d;
+    color: whitesmoke;
     margin-left: 36%;
     margin-top: 2%;
-    justify-content: center;
 }
 
+a {
+    color: aliceblue;
+}
+
+a:visited {
+    color: lightgray;
+}
+
+a:hover, a:active{
+    color: #eee;
+}
